@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script>
+	let numbers = [4, 6, 10, 13, 14];
+	let V = +prompt("Enter num V: ");
+	for (let i = 0; i < numbers.length ; i++) {
+		if (numbers[i] === V ){
+			numbers.splice(i,1);
+		}
+	}
+	console.log(numbers);
+</script>
+</body>
+</html>

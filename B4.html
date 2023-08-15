@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script>
+	let array = [];
+	let result = [];
+	for (let i = 0; i < 10 ; i++) {
+		let n = +prompt("Enter your 10 number");
+		array.push(n);
+		result.push(n);
+	}
+	for (let i = 0; i <array.length ; i++) {
+		result[i] = array[(array.length -1) - i ];
+	
+	}
+	console.log(array);
+	console.log(result);
+	
+	
+	
+	
+	
+</script>
+</body>
+</html>

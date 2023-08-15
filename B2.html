@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script>
+	let maxIndex = 0;
+	let max = 0;
+	let arr = [1, 2, 3, 5, 12, 123, 268, 300, 999, 11];
+	for (let i = 0; i < arr.length; i++) {
+		if (arr[i] > max) {
+			max = arr[i];
+			maxIndex = i;
+		}
+	}
+	console.log("so lon nhat la: " + max + "tai vi tri" + maxIndex)
+</script>
+</body>
+</html>
